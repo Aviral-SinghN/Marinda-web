@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'serif', sans-serif;
+    background-color: black;
+    color: #f4f4f4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.nav-link {
+    display: block;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: #f4f4f4;
+    text-decoration: none;
+    position: relative;
+    transition: 0.4 ease-in-out;
+    font-size: 100px;
+    animation-name: slide;
+    animation-duration: 1s;
+}
+@keyframes slide{
+0% {transform: translate(0px,-100px);}
+100% {transform: translate(0px,0px);}
+}
+
+.nav-link:hover{
+    
+    letter-spacing: 30px;
+    border-bottom: 1px solid rgb(181, 167, 167);
+    transition: 0.5s ease-in-out;
+}
+
+footer {
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+
+.close-button{
+    height: 20px;
+    width: 40px;
+    font-size: 100px;
+}
+table{
+    margin-left: 570px;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
